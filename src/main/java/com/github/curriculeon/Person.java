@@ -4,22 +4,29 @@ package com.github.curriculeon;
  * Created by leon on 12/16/2019.
  */
 public class Person {
-    public Person(){}
+    private String firstName;
+    private String lastName;
 
     public Person(String firstName, String lastName) {
+       this.firstName = firstName;
+       this.lastName = lastName;
     }
 
+    public Person(){}
+
     public String getFirstName() {
-        return null;
+        return this.firstName;
     }
 
     public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
-        return null;
+        return this.lastName;
     }
 
     public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
