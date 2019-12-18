@@ -5,6 +5,10 @@ public class MainApplication {
         Runnable myObject = new MyObject();
         myObject.run();
         // creating an instance of the Person class (human).
+        // Translation: human variable of type Person(left) instantiates the Person(right) class.
+        // Person human is a variable declaration
+        // new operator instantiates the Person class
+        // ref: http://journals.ecs.soton.ac.uk/java/tutorial/java/javaOO/objectcreation.html
         Person human = new Person();
         // this sets the value for my setters in Person.java
         human.setFirstName("Felix");
